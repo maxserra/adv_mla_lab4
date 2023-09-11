@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "adv-mla-lab4"
+version = "0.1.0"
+description = ""
+authors = ["Max Serra <mserralasierra@gmail.com>"]
+readme = "README.md"
+packages = [{include = "adv_mla_lab4"}]
+
+[tool.poetry.dependencies]
+python = "3.9.13"
+jupyterlab = "3.6.3"
+pandas = "2.0.1"
+scikit-learn = "1.2.2"
+xgboost = "1.7.6"
+lime = "0.2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
